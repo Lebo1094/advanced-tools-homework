@@ -98,3 +98,42 @@ p {
 .navbar {
   margin: 0;
 }
+
+@media (max-width: 576px) {
+  div {
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .home-image {
+    display: none;
+  }
+
+  .about-image {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
